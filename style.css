@@ -89,7 +89,40 @@ body{
 }
 
 /* aside-side */
+.side-02{
+    width: 1110px;
+    height: 110px;
+    margin: 0 auto;
+}
 .side-info{
     display: grid;
     grid-template-columns: repeat(7,1fr);
+    margin-top: 70px;
+}
+/* container */
+.pop{
+    text-align: center;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.container{
+    margin-bottom: 30px;
+}
+.outside{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 329px;
+    height: 476px;
+}
+.outside img{
+    margin:  0 auto;
+}
+.grid-site{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 100px;
 }
