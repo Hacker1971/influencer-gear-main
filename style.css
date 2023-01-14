@@ -187,3 +187,31 @@ footer{
     font-weight: 700;
     font-size: 14px;
     }
+    /* midea queary */
+    @media screen and (max-width: 576px){
+        .header-hero{
+            display: none;
+        }
+        .main-01{
+            flex-direction: column-reverse;
+            align-items: flex-start;
+        }
+        .right >img{
+            width: 80%;
+        }
+        .main-title{
+            font-size: 16px;
+        }
+        .side-info{
+            
+            grid-template-columns: repeat(4,1fr);
+            gap: 5px;
+            
+        }
+        .grid-site{
+            grid-template-columns: repeat(1,1fr);
+        }
+        ..end-section{
+            flex-direction: column;
+        }
+    }
